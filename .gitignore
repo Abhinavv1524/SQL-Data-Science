@@ -1,3 +1,28 @@
-./env
+# Virtual environment
+venv/
+env/
+
+# Byte-compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and databases
+*.log
+db.sqlite3
+instance/
+
+# Django-specific
+*.pid
+*.db
+media/
+staticfiles/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
 .env
-env
+*.env
+
+# Node.js dependencies (if using React for
